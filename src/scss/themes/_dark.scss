@@ -1,0 +1,11 @@
+$font-colors: white;
+
+@mixin useDark {
+  @each $color in $font-colors {
+    [data-theme="dark"] {
+      h1 {
+        color: $color;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+[data-theme=dark] h1 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: lightcoral;
+}
+.container h1 {
+  color: black;
+}
+.container button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.container button:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
